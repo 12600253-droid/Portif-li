@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artur Naves | Portfólio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@500;600&family=IBM+Plex+Serif:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <nav class="menu">
+      <button class="botao-menu" id="botaoMenu" aria-label="Abrir menu">☰</button>
+
+      <ul class="links-menu" id="linksMenu">
+        <li><a href="#sobre">Sobre-mim</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li class="item-contato"><a href="#contato">Contato</a></li>
+      </ul>
+
+      <button class="botao-tema" id="botaoTema">Modo claro</button>
+    </nav>
+  </header>
+
+  <section class="inicio" id="inicio">
+        <div class="colunas" aria-hidden="true">
+    <div class="coluna inicio-vertical"></div>
+    <div class="coluna inicio-horizontal"></div>
+    </div>
+
+    <h1 class="nome">
+      <span class="nome-1">Artur</span>
+      <span class="nome-2">Naves</span>
+    </h1>
+  </section>
+
+  <section class="sobre" id="sobre">
+    <div class="colunas" aria-hidden="true">
+    <div class="coluna sobre-vertical"></div>
+    <div class="coluna sobre-horizontal"></div>
+    </div>
+
+    <h2 class="titulo" data-aos="fade-right">Sobre-mim</h2>
+
+    <div class="sobre-conteudo">
+      <img src="foto.jpg" alt="Foto de Artur Naves" class="foto" data-aos="zoom-in">
+
+      <p class="texto-sobre" data-aos="fade-left">
+        Olá, me chamo Artur, estudante do segundo ano técnico no COTEMIG Barroca,
+        em fase de aprendizado em lógica de programação e fundamentos de TI.
+        Desenvolvendo as primeiras habilidades em escrita de código e resolução de
+        problemas estruturados. Entusiasta da área de jogos independentes,
+        focado em dominar a base técnica necessária para o desenvolvimento de software.
+      </p>
+    </div>
+  </section>
+
+  <section class="habilidades" id="habilidades">
+    <div class="colunas" aria-hidden="true">
+    <div class="coluna habilidades-vertical"></div>
+    </div>
+
+    <h2 class="titulo titulo-direita" data-aos="fade-left">Habilidades</h2>
+
+    <div class="cartoes-habilidades" data-aos="fade-up">
+      <div class="cartao">
+        <h3 class="titulo-cartao">Hard Skills</h3>
+
+        <p class="categoria">Linguagens de Programação</p>
+        <div class="etiquetas">
+          <span class="etiqueta">Lógica de Programação</span>
+          <span class="etiqueta">C#</span>
+        </div>
+
+        <p class="categoria">Front-End (noções)</p>
+        <div class="etiquetas">
+          <span class="etiqueta">HTML5</span>
+          <span class="etiqueta">CSS3</span>
+        </div>
+
+        <p class="categoria">Banco de Dados (noções)</p>
+        <div class="etiquetas">
+          <span class="etiqueta">SQL</span>
+        </div>
+
+        <p class="categoria">Ferramentas</p>
+        <div class="etiquetas">
+          <span class="etiqueta">Visual Studio</span>
+          <span class="etiqueta">VS Code</span>
+          <span class="etiqueta">Pacote Office</span>
+        </div>
+      </div>
+
+      <div class="cartao">
+        <h3 class="titulo-cartao">Soft Skills</h3>
+
+        <div class="soft-item">
+          <p class="soft-nome">Resolução de Problemas</p>
+          <p>Foco em analisar desafios e tentar encontrar soluções eficientes.</p>
+        </div>
+
+        <div class="soft-item">
+          <p class="soft-nome">Trabalho em Equipe</p>
+          <p>Facilidade para colaborar, ouvir e somar com os colegas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos" id="projetos">
+    <div class="colunas" aria-hidden="true">
+    <div class="coluna projetos-vertical"></div>
+    <div class="coluna projetos-horizontal"></div>
+    </div>
+
+    <div class="cartoes-projetos">
+      <div class="coluna-esquerda" data-aos="fade-up">
+      <h2 class="titulo titulo-projetos">Projetos</h2>
+      <div class="cartao cartao-projeto1">
+        <h3 class="titulo-cartao">C#</h3>
+        <p class="nome-projeto">Verificador de Ano Bissexto</p>
+        <ul class="lista-cartao">
+          <li class="item-cartao">Descrição: Algoritmo em C# desenvolvido para validar se um ano inserido pelo usuário é bissexto ou comum, aplicando operadores lógicos e condicionais.</li>
+          <li class="item-cartao">Tecnologias: C#, Visual Studio.</li>
+          <li class="item-cartao">Repositório: <a class="link-cartao" href="https://github.com/12600253-droid/HOLLNIHT" target="_blank" rel="noopener">GITHUB</a></li>
+        </ul>
+      </div>
+      </div>
+
+      <div class="coluna-direita" data-aos="fade-up" data-aos-delay="200">
+      <div class="cartao cartao-projeto2">
+        <p class="nome-projeto">Validador de CPF em C#</p>
+        <ul class="lista-cartao">
+          <li class="item-cartao">Descrição do Projeto: Um sistema completo em C# desenvolvido para validar números de CPF utilizando o cálculo dos dígitos verificadores e identificando a respectiva região fiscal do participante.</li>
+          <li class="item-cartao">Repositório: <a class="link-cartao" href="https://github.com/12600253-droid/HOLLNIHT" target="_blank" rel="noopener">GITHUB</a></li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contato" id="contato">
+    <div class="colunas" aria-hidden="true">
+    <div class="coluna contato-vertical"></div>
+    <div class="coluna contato-horizontal"></div>
+    </div>
+
+    <div class="redes">
+      <h2>Minhas Redes Sociais</h2>
+      <div class="links-redes">
+        <a href="https://github.com/12600253-droid/HOLLNIHT" target="_blank" rel="noopener">GITHUB</a>
+        <span class="linha-cinza"></span>
+        <span class="linha-cinza linha-2"></span>
+        <a href="https://www.linkedin.com/in/artur-naves-2a19863b6/" target="_blank" rel="noopener">LINKEDIN</a>
+      </div>
+    </div>
+
+    <h2 class="titulo-contato" data-aos="fade-up">CONTATO</h2>
+
+    <form class="formulario" id="formulario" novalidate data-aos="fade-up">
+      <div class="linha-campos">
+        <input type="text" id="nome" placeholder="Nome:" aria-label="Nome" autocomplete="name">
+        <input type="email" id="email" placeholder="Email:" aria-label="Email" autocomplete="off">
+      </div>
+
+      <div class="linha-campos">
+        <div class="campo-telefone">
+          <input type="tel" id="telefone" placeholder="Telefone (opcional): (00) 00000-0000" aria-label="Telefone" autocomplete="off">
+        </div>
+      </div>
+
+      <textarea id="mensagem" rows="7" maxlength="500" placeholder="Digite sua mensagem..." aria-label="Mensagem"></textarea>
+      <p class="contador" id="contador">0/500</p>
+
+      <p class="aviso" id="aviso"></p>
+
+      <button type="submit" class="botao-enviar">Enviar mensagem</button>
+    </form>
+  </section>
+
+  <div class="fundo-modal" id="modal">
+    <div class="caixa-modal">
+      <h3 class="modal-titulo">Obrigado pelo contato!</h3>
+      <p class="modal-texto" id="modalTexto"></p>
+      <div class="botoes-modal">
+        <button class="botao-enviar" id="modalConfirmar">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
